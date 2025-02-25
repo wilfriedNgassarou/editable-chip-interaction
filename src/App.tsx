@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "motion/react"
 import { useRef, useState } from "react"
 import { Check } from "./components/svgs/check"
 import { Pencil } from "./components/svgs/pencil"
+import { Credits } from "./components/credits"
 
 function App() {
   const [isEditing, setIsEditing] = useState(false)
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <section className="w-full h-dvh flex justify-center items-center text-xl">
+      <Credits />
       <motion.div
         layout
         initial={{
