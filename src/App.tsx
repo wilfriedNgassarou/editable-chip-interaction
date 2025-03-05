@@ -24,7 +24,7 @@ function App() {
           borderColor: isEditing ? 'black' : 'white',
           boxShadow: isEditing ? 'none' : '0px 0px 2px rgba(0, 0, 0, .4)'
         }}
-        className="flex items-center relative gap-2 h-14 pl-4 pr-11 overflow-hidden border-[1.5px]"
+        className="flex items-center relative gap-2 h-14 pl-4 pr-11 overflow-hidden border-2"
         style={{ borderRadius: 60 }}
       >
         <motion.input
